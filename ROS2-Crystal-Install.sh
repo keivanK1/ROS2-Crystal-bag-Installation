@@ -38,3 +38,6 @@ sudo apt install ros-$CHOOSE_ROS_DISTRO-rmw-connext-cpp -y          # for RTI Co
 # In this step ROS2 bag will be installed, more information about it can be found [here](https://github.com/ros2/rosbag2).
 export CHOOSE_ROS_DISTRO=crystal # rosbag2 is available starting from crystal
 sudo apt-get install ros-$CHOOSE_ROS_DISTRO-ros2bag* ros-$CHOOSE_ROS_DISTRO-rosbag2* -y
+
+# Installing build system for ROS2 (Colcon):
+sudo apt install python3-colcon-common-extensions -y

@@ -56,4 +56,8 @@ If you want to use ROS2 bag consider the following steps, otherwise you can skip
         export CHOOSE_ROS_DISTRO=crystal # rosbag2 is available starting from crystal
         sudo apt-get install ros-$CHOOSE_ROS_DISTRO-ros2bag* ros-$CHOOSE_ROS_DISTRO-rosbag2* 
 
+* Installing build system for ROS2 (Colcon):
+
+		sudo apt install python3-colcon-common-extensions
+
 * Reboot
